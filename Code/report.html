@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>News App: Home</title>
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width : 720px)" />
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" id="logo" alt="News App Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">All Stoires</a></li>
+                <li><a href="setting.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+    <div class="Labels">
+        <label for="Select Country">Select Country</label>
+        <select name="Select Country" placeholder="Please Select..." required>
+            <option value="" disabled selected hidden>Please Select...</option>
+            <option value="Yorkshire">Yorkshire</option>
+            <option value="Kent">Kent</option>
+            <option value="Linconshire">Linconshire</option>
+            <option value="Derbyshire">Derbyshire</option>
+            <option value="Hampshire">Hampshire</option>
+        </select>
+    </div>
+    <div class="Labels">
+        <label for="Select Sub County">Select Sub County</label>
+        <select name="Select Sub County" placeholder="Please Select..." required>
+            <option value="" disabled selected hidden>Please Select...</option>
+            <option value="North Yorkshire">North Yorkshire</option>
+            <option value="South Yorkshire">South Yorkshire</option>
+            <option value="East Yorkshire">East Yorkshire</option>
+            <option value="West Yorkshire">West Yorkshire</option>
+        </select>
+    </div>
+    <div class="Labels">
+        <label for="Select City">Select City</label>
+        <select name="Select City" placeholder="Please Select..." required>
+            <option value="" disabled selected hidden>Please Select...</option>
+            <option value="Rotherham">Rotherham</option>
+            <option value="Barnsley">Barnsley</option>
+            <option value="Sheffield">Sheffield</option>
+            <option value="Doncaster">Doncaster</option>
+            <option value="Mexborough">Mexborough</option>
+        </select>
+    </div>
+    <div class="Labels">
+        <label for="Select Catorgary">Select Catorgary</label>
+        <select name="Select Catorgary" placeholder="Please Select..." required>
+            <option value="" disabled selected hidden>Please Select...</option>
+            <option value="Sport">Sport</option>
+            <option value="Weather">Weather</option>
+            <option value="Leisure">Leisure</option>
+            <option value="Crime">Crime</option>
+        </select>
+    </div>
+    <div class="Labels">
+        <label for="Select Sub Catorery">Select Sub Catorery</label>
+        <select name="Select Sub Catorery" placeholder="Please Select..." required>
+            <option value="" disabled selected hidden>Please Select...</option>
+            <option value="Road Accident">Road Accident</option>
+            <option value="Stabbing">Stabbing</option>
+            <option value="Victimless">Victimless</option>
+        </select>
+    </div>
+    <div class="Title">
+        <label for="Title">Title:</label>
+        <textarea name="Title" rows="5" cols="10" wrap="soft"
+            placeholder="TITLE..."></textarea>
+    </div>
+    <div class="desciption ask">
+        Please write a short decription of the incident
+    </div>
+    <div class="inputLabels">
+        <label for="Desciption"></label>
+        <textarea name="Desciption" rows="5" cols="10" wrap="soft"
+            placeholder="Description"></textarea>
+    </div>
+    <div class="buttons">
+        <div class="submitClear">
+            <button type="submit" form="pageForm" value="Submit">Submit</button>
+            <button type="reset" form="pageForm" value="Reset">Reset</button>
+        </div>
+    </section>
+    <footer>
+        Jake Ellis 31012273 Stage 2 News App
+    </footer>
+</body>
+</html>

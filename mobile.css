@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0;
+}
+section{
+    margin: 20px;
+    align-items: center;
+}
+header {
+    background-color: rgb(255, 251, 251);
+    color: #000;
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+}
+
+h2 {
+    font-family: "Cabin", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
+h5 {
+    text-align: center;
+    font-style: bold;
+    font-weight: lighter;
+    font-size: large;
+    font-family: "Cabin",sans-serif;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.homelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#logo {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: "Varela Round", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin-right: 5px;
+    border: #D46BFF;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 0 15px 0 10px;
+    text-align: center;   
+}
+nav ul li a {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 0;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+}
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.inputLabels select {
+    margin: 5px 0 25px 0;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 6px 10px;
+    color: #D46BFF;
+}
+
+.inputLabels input {
+    margin: 5px 0 25px 0;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 6px 10px;
+    color: #D46BFF;
+}
+
+.dateLabels input {
+    margin: 5px 0 25px 0;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 3px 10px;
+    color: #D46BFF;
+}
+textarea {
+    margin: 5px 0 20px 0;
+    resize: none;
+    width: 82%;
+    height: 100px;
+    padding: 6px 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.Labels input {
+    margin: 5px 0px 100px 10px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    color: #D46BFF;
+}
+
+.Labels select {
+    margin: 5px 0;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    color: #D46BFF;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    border: #D46BFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 0px 0px 0 0px;
+    justify-content: center;
+    text-align: center;
+}
+.submitClear {
+    display: flex;
+    align-items: center;
+}
+
+.submitClear button {
+    margin: 15px auto;
+    width: 40%;
+    height: 200%;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    background-color: #d3ffcd;
+}
+
+button[type="reset"] {
+    background-color: #ffeded;
+}
+
+button {
+    border: solid 1px gray;
+    cursor: pointer;
+}
+.Title input {
+    margin: 5px 0;
+    width: 100%;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 8px 10px;
+    color: gray;
+}
+.Title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%; 
+}
+.stories {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.stocks {
+    width: 100px;
+}
+#topstory {
+    width: 90%;
+    padding: 20px;
+}
+.substory {
+    border: solid #D46BFF;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+    margin: 3px;   
+}
+.topstory {
+    border: solid #D46BFF;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+    margin: 3px;
+}
+.allstories {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: solid #D46BFF;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+}
+#allstories {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.ASImages {
+    height: 100px;
+}
+#USDC {
+    width: 350px;
+    align-items: center;
+    padding: 20px;
+}
+.questions {
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.points {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: solid  #D46BFF;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+.comments{
+    border: solid #D46BFF;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+}
+    
+    
